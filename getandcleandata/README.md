@@ -5,6 +5,9 @@ This script should be run from the base directory of the data set, so if you unz
 ## parameters
 no parameters need be passed to the script
 
+## output 
+creates a file final.txt in 'all' directory 
+
 ## flow
 * creates a directory named "all" to store merged data
 * merges each of X_ , y_ subject_ files from test and train directories
