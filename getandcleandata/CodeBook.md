@@ -1,13 +1,13 @@
 
 * directory 'all' : created in the base directory to store merged data
 * features.txt in 'all' : contains the subset of features for mean and std that were created by using commands outside of the script but using the same code logic  used in run_analysis.R
-**   features <- read.table("features.txt")
-**   c <- grep("mean",features$V2,ignore.case=T)
-**   d <- grep("std", features$V2,ignore.case=T)
-**   e <- rbind(features[c,], features[d,])
-**   e <- sort(e$V1)
-**   g <- features[features$V1 %in% e, ]
-**   write.table("all/features.txt", g, row.name=F)
+*   features <- read.table("features.txt")
+*   c <- grep("mean",features$V2,ignore.case=T)
+*   d <- grep("std", features$V2,ignore.case=T)
+*   e <- rbind(features[c,], features[d,])
+*   e <- sort(e$V1)
+*   g <- features[features$V1 %in% e, ]
+*   write.table("all/features.txt", g, row.name=F)
 * dfall_X : contains merged data for  X_test.txt and X_train.txt
 * dfall_subject : contains merged data for subject_test.txt and subject_traint.txt
 * dfall_activity : contains merged data for y_test.txt and y_train.txt
